@@ -1,0 +1,10 @@
+---
+title: Not Yasho Master
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true

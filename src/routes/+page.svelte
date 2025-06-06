@@ -6,39 +6,39 @@
 </script>
 
 <svelte:head>
-	<title>Portfolio | NotYasho</title>
-	<meta name="title" content="Portfolio | NotYasho" />
+        <title>Portfolio | Geo-Coded</title>
+        <meta name="title" content="Portfolio | Geo-Coded" />
 	<meta
 		name="description"
 		content="Hi! This is my portfolio site as a (emerging) software developer :P. Explore my projects, experience, and blog posts to learn more."
 	/>
 	<meta
 		name="image"
-		content="https://raw.githubusercontent.com/NotYasho/notyasho.netlify.app/master/static/img/thumbnails/portfolio.png"
+                content="https://raw.githubusercontent.com/Geo-Coded/geo-coded.netlify.app/master/static/img/thumbnails/portfolio.png"
 		class="next-head"
 	/>
 
 	<!-- Open Graph / Facebook -->
 	<meta property="og:type" content="website" />
-	<meta property="og:url" content="https://notyasho.netlify.app/" />
-	<meta property="og:title" content="NotYasho - Portfolio" />
+        <meta property="og:url" content="https://geo-coded.netlify.app/" />
+        <meta property="og:title" content="Geo-Coded - Portfolio" />
 	<meta
 		property="og:description"
 		content="Hi! This is my portfolio site as a (emerging) software developer :P. Explore my projects, experience, and blog posts to learn more."
 	/>
-	<meta property="og:image" content="https://raw.githubusercontent.com/NotYasho/notyasho.netlify.app/master/static/img/thumbnails/portfolio.png" />
+        <meta property="og:image" content="https://raw.githubusercontent.com/Geo-Coded/geo-coded.netlify.app/master/static/img/thumbnails/portfolio.png" />
 
 	<!-- Twitter -->
 	<meta property="twitter:card" content="summary_large_image" />
-	<meta property="twitter:url" content="https://notyasho.netlify.app/" />
-	<meta property="twitter:title" content="NotYasho - Portfolio" />
+        <meta property="twitter:url" content="https://geo-coded.netlify.app/" />
+        <meta property="twitter:title" content="Geo-Coded - Portfolio" />
 	<meta
 		property="twitter:description"
 		content="Hi! This is my portfolio site as a (emerging) software developer :P. Explore my projects, experience, and blog posts to learn more."
 	/>
 	<meta
 		property="twitter:image"
-		content="https://raw.githubusercontent.com/NotYasho/notyasho.netlify.app/master/static/img/thumbnails/portfolio.png"
+                content="https://raw.githubusercontent.com/Geo-Coded/geo-coded.netlify.app/master/static/img/thumbnails/portfolio.png"
 	/>
 </svelte:head>
 

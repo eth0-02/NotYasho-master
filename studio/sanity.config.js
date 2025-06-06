@@ -7,10 +7,10 @@ import {markdownSchema} from 'sanity-plugin-markdown'
 
 export default defineConfig({
   name: 'default',
-  title: 'NotYasho Blog',
+  title: 'Geo-Coded Blog',
 
-  projectId: 'e7hpgv7c',
-  dataset: 'production',
+  projectId: process.env.SANITY_PROJECT_ID,
+  dataset: process.env.SANITY_DATASET,
 
   plugins: [deskTool(), unsplashImageAsset(), visionTool(), markdownSchema()],
 

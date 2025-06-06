@@ -8,29 +8,29 @@
 
 <svelte:head>
 	<!-- Primary Meta Tags -->
-	<title>About | NotYasho</title>
-	<meta name="title" content="About | NotYasho" />
+        <title>About | Geo-Coded</title>
+        <meta name="title" content="About | Geo-Coded" />
 	<meta
 		name="description"
-        content="About page - NotYasho. I'm a developer/designer who loves to code. This is my personal website where I post my projects and blogs."
+        content="About page - Geo-Coded. I'm a developer/designer who loves to code. This is my personal website where I post my projects and blogs."
 	/>
 
 	<!-- Open Graph / Facebook -->
 	<meta property="og:type" content="website" />
-	<meta property="og:url" content="https://notyasho.netlify.app/about" />
-	<meta property="og:title" content="About | NotYasho" />
-	<meta
-		property="og:description"
-		content="About page - NotYasho. I'm a developer/designer who loves to code. This is my personal website where I post my projects and blogs."
-	/>
+        <meta property="og:url" content="https://geo-coded.netlify.app/about" />
+        <meta property="og:title" content="About | Geo-Coded" />
+        <meta
+                property="og:description"
+                content="About page - Geo-Coded. I'm a developer/designer who loves to code. This is my personal website where I post my projects and blogs."
+        />
 
 	<!-- Twitter -->
-	<meta property="twitter:url" content="https://notyasho.netlify.app/about" />
-	<meta property="twitter:title" content="About | NotYasho" />
-	<meta
-		property="twitter:description"
-		content="About page - NotYasho. I'm a developer/designer who loves to code. This is my personal website where I post my projects and blogs."
-	/>
+        <meta property="twitter:url" content="https://geo-coded.netlify.app/about" />
+        <meta property="twitter:title" content="About | Geo-Coded" />
+        <meta
+                property="twitter:description"
+                content="About page - Geo-Coded. I'm a developer/designer who loves to code. This is my personal website where I post my projects and blogs."
+        />
 </svelte:head>
 
 <Header />

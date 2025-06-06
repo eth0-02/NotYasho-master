@@ -1,26 +1,26 @@
-## Hi, I'm ~~Not~~Yasho
+## Hi, I'm Geo-Coded
 
-[![image](https://user-images.githubusercontent.com/90166733/229889532-31b3f627-d0b8-4194-bd91-48293c667793.png)](https://notyasho.netlify.app/blogs)
+[![image](https://user-images.githubusercontent.com/90166733/229889532-31b3f627-d0b8-4194-bd91-48293c667793.png)](https://geo-coded.netlify.app/blogs)
 
 ### My Projects
 
 <details><summary>PYCMD - A Command Line Interface for Managing your Projects </summary><ul> 
 <li>Language: <strong>Python</strong></li>
-<li>Source Code: <strong><a href = "https://www.github.com/NotYasho/PyCMD">Github</a></strong></li>
+<li>Source Code: <strong><a href = "https://www.github.com/Geo-Coded/PyCMD">Github</a></strong></li>
 <li>Features: <strong>Create, Open, Delete, Push to GitHub Projects with just one command. Manage your github repos, Auto Generate Boiler plate... </strong></li>
 </ul>
 </details>
 
 <details><summary>Purple - Discord Bot</summary><ul?> 
 <li>Language: <strong>Node.js</strong></li>
-<li>Source Code: <strong><a href = "https://github.com/NotYasho/Purple-DiscordBot">Github</a></strong> </li>
+<li>Source Code: <strong><a href = "https://github.com/Geo-Coded/Purple-DiscordBot">Github</a></strong> </li>
 <li>Features: <strong>Auto-Mod, Meme, Auto-Role Assignment... </strong> [Beta]</li>
 </ul>
 </details>
 
 <details><summary>Reddit Story Bot</summary><ul?> 
 <li>Language: <strong>Python</strong></li>
-<li>Source Code: <strong><a href = "https://github.com/NotYasho/story-bot">Github</a></strong> </li>
+<li>Source Code: <strong><a href = "https://github.com/Geo-Coded/story-bot">Github</a></strong> </li>
 <li>Description: <strong>The bot gets 500 random stories from the subreddit <code>r/stories</code>, writes them to a JSON, creates a script and writes it into multiple txt file, filtering all the profanity. Converts them to text to speech, adds a background track depending on the story, Outputs an audio file, generally 2 - 3 mins.</strong>
 <br><br></li><strong><em> Please Contribute 💖</em> </strong>
 </ul>
@@ -45,8 +45,8 @@
 
 ### Stats
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=NotYasho&layout=compact&bg_color=0D1117&icon_color=FFFFFF&text_color=ffffff&hide_border=true&title_color=afa6ff)](https://github.com/anuraghazra/github-readme-stats) 
-[![Yasho's github stats](https://github-readme-stats.vercel.app/api?username=NotYasho&include_all_commits=true&count_private=true&show_icons=true&line_height=20&title_color=afa6ff&icon_color=FFFFFF&text_color=FFFFFF&bg_color=0D1117&hide_border=true)](https://github.com/NotYasho)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Geo-Coded&layout=compact&bg_color=0D1117&icon_color=FFFFFF&text_color=ffffff&hide_border=true&title_color=afa6ff)](https://github.com/anuraghazra/github-readme-stats)
+[![Geo-Coded's github stats](https://github-readme-stats.vercel.app/api?username=Geo-Coded&include_all_commits=true&count_private=true&show_icons=true&line_height=20&title_color=afa6ff&icon_color=FFFFFF&text_color=FFFFFF&bg_color=0D1117&hide_border=true)](https://github.com/Geo-Coded)
 
 ### Listening To
 
@@ -55,7 +55,7 @@
 ### Contact Me
 
 <!-- mail -->
-[![image](https://img.shields.io/badge/mail-DDB6F2?style=for-the-badge&amp;logo=gmail&amp;logoColor=black)](https://notyasho.netlify.app/contact)
+[![image](https://img.shields.io/badge/mail-DDB6F2?style=for-the-badge&amp;logo=gmail&amp;logoColor=black)](https://geo-coded.netlify.app/contact)
 [![image](https://img.shields.io/badge/discord-96cdfb?style=for-the-badge&amp;logo=discord&amp;logoColor=black)](https://discord.com/users/1077943866314981466)
 
 ## TODO
@@ -65,3 +65,40 @@
 - Change mobile blog view from card to something like Reddit's compact view.
 - Refactor code
 - Redesign portfolio
+
+## Setting Up Sanity CMS
+
+This project uses [Sanity](https://www.sanity.io/) for managing blog content. Follow these steps to configure it locally:
+
+1. **Install the Sanity CLI**
+
+   ```bash
+   npm install -g @sanity/cli
+   ```
+
+2. **Create your `.env` file**
+
+   Copy `.env.example` to `.env` and fill in your project details.
+
+   ```bash
+   cp .env.example .env
+   # then edit .env and set SANITY_PROJECT_ID and SANITY_DATASET
+   ```
+
+   These variables are read by both the SvelteKit app (`VITE_SANITY_*`) and the Studio (`SANITY_*`).
+
+3. **Initialize and run the Studio**
+
+   ```bash
+   cd studio
+   npm install
+   npx sanity login
+   npx sanity init --project $SANITY_PROJECT_ID --dataset $SANITY_DATASET --existing
+   npm run dev
+   ```
+
+   The Studio will be available at [http://localhost:3333](http://localhost:3333).
+
+4. **Customize schemas** by editing files under `studio/schemas` to tailor the content types for your blog.
+
+5. **Deploy** with `npm run deploy` from the `studio` directory when you're ready to publish the Studio online.

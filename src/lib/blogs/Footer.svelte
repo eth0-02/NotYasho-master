@@ -3,17 +3,17 @@
 </script>
 
 <footer>
-	<div class="container">
-		<p>&copy; <span id="year" />NotYasho {new Date().getFullYear()}. All rights reserved.</p>
+        <div class="container">
+                <p>&copy; <span id="year" />Geo-Coded {new Date().getFullYear()}. All rights reserved.</p>
 		<p>
 			Made with <span style="color: #eb345e">♥</span> using <a href="https://kit.svelte.dev/">SvelteKit</a>, hosted on
 			<a href="https://www.netlify.com/">Netlify</a>.
 		</p>
 		<div class="social-links">
-			<a href="https://www.twitter.com/not_yasho" rel="noreferrer" target="_blank"><Icon icon="mdi:twitter" /></a>
-			<a href="https://www.github.com/notyasho" rel="noreferrer" target="_blank"><Icon icon="mdi:github" /></a>
-			<a href="https://discord.com/users/1077943866314981466" rel="noreferrer" target="_blank"><Icon icon="ic:round-discord" /></a>
-			<a href="https://www.reddit.com/u/probablynotyasho" rel="noreferrer" target="_blank"><Icon icon="ic:round-reddit" /></a>
+                        <a href="https://www.twitter.com/geo_coded" rel="noreferrer" target="_blank"><Icon icon="mdi:twitter" /></a>
+                        <a href="https://www.github.com/geo-coded" rel="noreferrer" target="_blank"><Icon icon="mdi:github" /></a>
+                        <a href="https://discord.com/users/1077943866314981466" rel="noreferrer" target="_blank"><Icon icon="ic:round-discord" /></a>
+                        <a href="https://www.reddit.com/u/probablygeocoded" rel="noreferrer" target="_blank"><Icon icon="ic:round-reddit" /></a>
 		</div>
 	</div>
 </footer>

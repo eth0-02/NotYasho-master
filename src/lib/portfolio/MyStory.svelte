@@ -48,7 +48,7 @@
 <style lang="scss">
 	#my-story {
 		min-height: 120vh;
-		background: url('https://raw.githubusercontent.com/NotYasho/personal-portfolio/master/static/img/bg/my-story-bg.webp?token=GHSAT0AAAAAAB4WNDHORQS5PSCDDVJKFNJIY6ABJSA');
+                background: url('https://raw.githubusercontent.com/Geo-Coded/personal-portfolio/master/static/img/bg/my-story-bg.webp?token=GHSAT0AAAAAAB4WNDHORQS5PSCDDVJKFNJIY6ABJSA');
 		background-size: cover;
 		background-position: center;
 		background-attachment: fixed;

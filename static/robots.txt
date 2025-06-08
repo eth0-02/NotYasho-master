@@ -17,4 +17,4 @@ Disallow:
 User-agent: *
 Disallow: 
 Disallow: /cgi-bin/
-Sitemap: https://notyasho.netlify.app/sitemap.xml
+Sitemap: https://geo-coded.netlify.app/sitemap.xml

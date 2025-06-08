@@ -1,9 +1,11 @@
-# Sanity Clean Content Studio
+# Geo-Coded Sanity Studio
 
-Congratulations, you have now installed the Sanity Content Studio, an open source real-time content editing environment connected to the Sanity backend.
+This folder contains the Sanity Studio used for writing blog posts. The Studio configuration reads your project ID and dataset from environment variables so you can easily connect it to your own Sanity project.
 
-Now you can do the following things:
+## Getting Started
 
-- [Read “getting started” in the docs](https://www.sanity.io/docs/introduction/getting-started?utm_source=readme)
-- [Join the community Slack](https://slack.sanity.io/?utm_source=readme)
-- [Extend and build plugins](https://www.sanity.io/docs/content-studio/extending?utm_source=readme)
+1. Copy the `.env.example` file from the project root to `.env` and fill in your `SANITY_PROJECT_ID` and `SANITY_DATASET` values.
+2. Install dependencies with `npm install`.
+3. Run the studio with `npm run dev`.
+
+For more details see the "Setting Up Sanity CMS" section in the main `README.md`.
